@@ -16,7 +16,7 @@ body {
     overflow: hidden;
 }
 
-.slider input{
+.slider input {
     display: none;
 }
 
@@ -35,6 +35,30 @@ body {
     display: flex;
     align-items: center;
     transition: all 1s;
+}
+
+#s0:checked~.slider_images .item_img[data-id="0"] {
+    width: 100%;
+    height: auto;
+    opacity: 1;
+}
+
+#s1:checked~.slider_images .item_img[data-id="1"] {
+    width: 100%;
+    height: auto;
+    opacity: 1;
+}
+
+#s2:checked~.slider_images .item_img[data-id="2"] {
+    width: 100%;
+    height: auto;
+    opacity: 1;
+}
+
+#s3:checked~.slider_images .item_img[data-id="3"] {
+    width: 100%;
+    height: auto;
+    opacity: 1;
 }
 
 .slider_images .item_img img {
@@ -72,6 +96,37 @@ body {
     margin-top: 0;
 }
 
+#s0:checked~.text_and_nav .slider_text .text_item[data-id="0"] {
+    font-size: 1.2rem;
+    opacity: 1;
+    overflow: auto;
+    height: auto;
+    margin-top: 0.4rem;
+}
+
+#s1:checked~.text_and_nav .slider_text .text_item[data-id="1"] {
+    font-size: 1.2rem;
+    opacity: 1;
+    overflow: auto;
+    height: auto;
+    margin-top: 0.4rem;
+}
+
+#s2:checked~.text_and_nav .slider_text .text_item[data-id="2"] {
+    font-size: 1.2rem;
+    opacity: 1;
+    overflow: auto;
+    height: auto;
+    margin-top: 0.4rem;
+}
+
+#s3:checked~.text_and_nav .slider_text .text_item[data-id="3"] {
+    font-size: 1.2rem;
+    opacity: 1;
+    overflow: auto;
+    height: auto;
+    margin-top: 0.4rem;
+}
 
 .nav_slider {
     display: flex;
@@ -98,6 +153,22 @@ body {
 
 }
 
+#s0:checked~.text_and_nav label[for="s0"] .circle {
+    background-color: transparent;
+}
+
+#s1:checked~.text_and_nav label[for="s1"] .circle {
+    background-color: transparent;
+}
+
+#s2:checked~.text_and_nav label[for="s2"] .circle {
+    background-color: transparent;
+}
+
+#s3:checked~.text_and_nav label[for="s3"] .circle {
+    background-color: transparent;
+}
+
 .nav_item:hover .circle {
     border-color: #fff;
     background-color: #fff;
@@ -112,4 +183,3 @@ body {
     border: .3rem solid #fff;
     background-color: transparent;
 }
-
