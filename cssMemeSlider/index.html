@@ -4,8 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>cssMemeSlider</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="wrapper">
+        <div class="slider">
+            <input type="radio" name="inp_slid" id="s0" checked>
+            <input type="radio" name="inp_slid" id="s1">
+            <input type="radio" name="inp_slid" id="s2">
+            <input type="radio" name="inp_slid" id="s3">
+            <div class="slider_images">
+                <div class="item_img" data-id="0">
+                    <img src="img/mem1.jpg" alt="meme1">
+                </div>
+                <div class="item_img" data-id="1">
+                    <img src="img/mem2.jpg" alt="meme2">
+                </div>
+                <div class="item_img" data-id="2">
+                    <img src="img/mem3.jpg" alt="meme3">
+                </div>
+                <div class="item_img" data-id="3">
+                    <img src="img/mem4.jpg" alt="meme4">
+                </div>
+            </div>
+            <div class="text_and_nav">
+                <div class="slider_text">
+                    <div class="text_item" data-id="0">Господи, когда же я, наконец, высплюсь...</div>
+                    <div class="text_item" data-id="1">И тааак сойдет!</div>
+                    <div class="text_item" data-id="2">Выходные странный предмет, они вроед есть, но их уже нет.</div>
+                    <div class="text_item" data-id="3">У меня есть для Вас работа, но я Вам ее не отдам, потому что, у Вас опыта нет.</div>
+                </div>
+                <div class="nav_slider">
+                    <label class="nav_item" for="s0">
+                        <div class="circle"></div>
+                    </label>
+                    <label class="nav_item" for="s1">
+                        <div class="circle"></div>
+                    </label>
+                    <label class="nav_item" for="s2">
+                        <div class="circle"></div>
+                    </label>
+                    <label class="nav_item" for="s3">
+                        <div class="circle"></div>
+                    </label>
+                </div>
+            </div>
+        </div>
+    </div>
+     
 </body>
 </html>
