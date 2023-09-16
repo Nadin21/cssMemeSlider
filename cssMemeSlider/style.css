@@ -183,3 +183,40 @@ body {
     border: .3rem solid #fff;
     background-color: transparent;
 }
+
+@media (max-width:1440px) {
+    .slider {
+        width: 80%;
+    }
+}
+
+@media (max-width:960px) {
+    .slider {
+        width: 100%;
+    }
+}
+
+@media (max-width:768px) {
+    .text_and_nav {
+        flex-direction: column-reverse;
+    }
+
+    .nav_slider,
+    .slider_text {
+        width: 100%;
+    }
+
+    .nav_slider {
+        justify-content: center;
+    }
+
+    .slider_text .text_item.active {
+        margin-top: 0;
+    }
+
+    .nav_item .circle {
+        width: 1.4rem;
+        height: 1.4rem;
+        margin: 0.3rem;
+    }
+}
